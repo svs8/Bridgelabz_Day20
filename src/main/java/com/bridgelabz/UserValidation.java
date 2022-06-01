@@ -13,6 +13,7 @@ public class UserValidation {
         Matcher matcher = pattern.matcher(firstName);
         boolean result = matcher.matches();
         return result;
+
     }
 
     public static boolean userLastName(String lastName) {
